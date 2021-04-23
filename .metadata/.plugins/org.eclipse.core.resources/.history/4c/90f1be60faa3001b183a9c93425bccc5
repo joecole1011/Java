@@ -16,10 +16,10 @@ public class Lab7 {
 		// โดยโปรแกรมจะทํางานในไปเรื่อยๆ ถ้าหากเขายังคงกรอกเลขคู่
 		// แต่ถ้ากรอกเลขคี่จะเป็นการออกจากลูป
 		System.out.println("ข้อ 2");
-		int number = 4;
+		int number = 3;
 		do {
 			System.out.println("Odd number : " + number);
-			//break;
+			break;
 		} while (number % 2 == 0);
 	}
 
