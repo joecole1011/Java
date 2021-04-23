@@ -1,0 +1,23 @@
+package com.kimzun.helloWord;
+
+public class JavaPart1 {
+
+	public static void main(String[] args) {
+		int a = 20, b = 5;
+		String c = "Akawit", d = "Nasoke";
+		int Sum = addition(a, b);
+		String addedString = addition(c, d);
+		System.out.println(" Int a x b : " + Sum);
+		System.out.println("String: + + " + addedString);
+
+	}
+
+	public static int addition(int n1, int n2) {
+		return n1 * n2;
+	}
+
+	public static String addition(String n1, String n2) {
+		return n1 + " " + n2;
+	}
+
+}
