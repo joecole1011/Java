@@ -1,0 +1,10 @@
+package com.kimzun.helloWord;
+
+public class Lab2 {
+	public String bark = "TukTuk";
+
+	public static void main(String[] args) {
+		
+	}
+
+}

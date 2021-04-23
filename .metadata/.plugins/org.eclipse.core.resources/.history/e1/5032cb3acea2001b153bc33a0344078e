@@ -1,0 +1,14 @@
+package com.kimzun.helloWord;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		int a = 2;
+		boolean b = true;
+		String c = "Akawit" ;
+		double d = 15.55;
+		byte = 1;
+		System.out.println("Hello World");
+	}
+
+}

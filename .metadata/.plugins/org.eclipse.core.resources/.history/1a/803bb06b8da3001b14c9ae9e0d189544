@@ -1,0 +1,31 @@
+package com.kimzun.helloWord;
+
+public class Lab3 {
+
+	public static void main(String[] args) {
+		int unaryInt  = 20;
+		System.out.println("++");
+		System.out.println("Result " + unaryInt);
+		
+		unaryInt++;
+		System.out.println("Result " + unaryInt);
+		
+		unaryInt++;
+		System.out.println("Result " + unaryInt);
+		
+		unaryInt++;
+		System.out.println("Result " + unaryInt);
+		
+		unaryInt++;
+		System.out.println("Result " + unaryInt);
+		
+		unaryInt++;
+		System.out.println("Result " + unaryInt);
+		System.out.println();
+		
+		
+		System.out.println("--");
+		
+	}
+
+}

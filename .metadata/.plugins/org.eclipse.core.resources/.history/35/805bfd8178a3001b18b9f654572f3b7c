@@ -1,0 +1,13 @@
+package com.kimzun.helloWord;
+
+public class Lab2 {
+	 
+
+	public static void main(String[] args) {
+		String dogName = "TukTuk";
+		bark();
+	}
+	public static void bark() {
+		System.out.println("The Dog name = "+ dogName + " bark");
+	}
+}
