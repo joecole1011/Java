@@ -1,0 +1,16 @@
+package com.kimzun.helloWord;
+
+public class Lab12 {
+
+	public static void main(String[] args) {
+
+		String String1 = "You and Me";
+		String String2 = " you and me ";
+		if (String1.equals(String2))
+			System.out.println("Equal");
+		else
+			System.out.println("Not equal");
+
+	}
+
+}
