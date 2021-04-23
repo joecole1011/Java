@@ -8,10 +8,10 @@ public class Lab4 {
 		if (isHandSome == true) {
 			if (score < 50) {
 				// System.out.println("fail"); ข้อ 1
-				System.out.println("Good"); //ข้อ 2
+				System.out.println("Good");
 			} else if (score >= 50 && score < 80) {
 				// System.out.println("normal"); ข้อ 1
-				System.out.println("Good"); //ข้อ 2
+				System.out.println("Good");
 			} else if (score >= 80) {
 				System.out.println("Good");
 			}
