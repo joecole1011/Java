@@ -1,0 +1,12 @@
+package com.kimzun.helloWord;
+
+public class Lab6 {
+
+	public static void main(String[] args) {
+		for(int counter = 0; counter <= 10; counter++) {
+			System.out.println("Counter :" + counter);
+			}
+
+	}
+
+}
