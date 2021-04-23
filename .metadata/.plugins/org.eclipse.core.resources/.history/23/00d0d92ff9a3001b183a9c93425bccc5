@@ -14,10 +14,9 @@ public class Lab7 {
 		// ข้อ 2 เขียนโปรแกรมตรวจสอบตัวเลข ว่าเป็น จํานวนคู่ หรือจํานวนคี่
 		// โดยโปรแกรมจะทํางานในไปเรื่อยๆ ถ้าหากเขายังคงกรอกเลขคู่
 		// แต่ถ้ากรอกเลขคี่จะเป็นการออกจากลูป
-		int number = 2;
+		int number = 3;
 		do {
-			System.out.println("Odd number : " + number);
-			//break;
+			System.out.println("Odd number : " + number);			
 		} while (number % 2 == 0);
 	}
 
