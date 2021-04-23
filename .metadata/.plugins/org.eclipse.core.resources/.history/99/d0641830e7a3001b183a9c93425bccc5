@@ -10,6 +10,8 @@ public class Lab4 {
 			System.out.println("normal");
 			} else if (score >= 80) {
 			System.out.println("Good");
-			} 
+			} else {
+			System.out.println("Invalid!");
+			}
 		}
 }
