@@ -2,7 +2,7 @@ package com.kimzun.JavaPart2;
 
 public class MobilePhone {
 
-	//ยังไม่สมบูรณ์ 
+	//ยังไม่สมบูรณ์
 	public static void main(String[] args) {
 		PhoneCall(); 
 		SMS(); 
