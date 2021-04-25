@@ -1,0 +1,10 @@
+package com.kimzun.JavaPart2;
+
+public class MobilePhone {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
