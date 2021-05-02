@@ -1,0 +1,36 @@
+package com.kimzun.ooplab;
+
+import com.kimzun.helloWord.HelloWorld;
+
+public class Employee {
+
+	public String firstname;
+	public String lastname;
+	public String position;
+	private int salary;
+	
+	public static void main(String[] args) {
+		//Employee akawit = new Employee("Akawit","Nasoke", 10000,"CEO");
+		Employee[] employee = new Employee[3];
+	}
+
+	public Employee(String firstnameInput, String lastnameInput, int salaryInput, String positionInput ) {
+		firstname = firstnameInput;
+		lastname = lastnameInput;
+		salary = salaryInput;
+		position = positionInput;
+	}
+
+	public void hello() {
+		System.out.println("Hello " + firstname);
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+	
+	public String getPosition() {
+		return position;
+	}
+	
+}
