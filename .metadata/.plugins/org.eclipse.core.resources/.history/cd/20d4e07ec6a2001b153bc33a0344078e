@@ -1,7 +1,0 @@
-package com.kimzun.helloWord;
-
-public class HelloWorld {
-	public static void maib(String [] args) {
-		
-	}
-}
