@@ -1,0 +1,35 @@
+package com.kimzun.ooplab;
+
+public class Employee13_2 {
+
+	public String firstname;
+	public String lastname;
+	public String position;
+	private int salary;
+
+	public static void main(String[] args) {
+		// Employee akawit = new Employee("Akawit","Nasoke", 10000,"CEO");
+
+	
+	}
+
+	public Employee13_2(String firstnameInput, String lastnameInput, int salaryInput, String positionInput) {
+		firstname = firstnameInput;
+		lastname = lastnameInput;
+		salary = salaryInput;
+		position = positionInput;
+	}
+
+	public void hello() {
+		System.out.println("Hello " + firstname);
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public String getPosition() {
+		return position;
+	}
+
+}
