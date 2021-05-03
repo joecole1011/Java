@@ -1,0 +1,50 @@
+package com.kimzun.day10;
+
+public class Day10 {
+	public String firstname;
+	public String lastname;
+	private int salary;
+
+	public Employee(String firstnameInput, String lastnameInput, int salaryInput) {
+        this.firstname = firstnameInput;
+        this.lastname = lastnameInput;
+        this.salary = salaryInput;
+    }
+
+	public void setSalary(int newSalary) {
+
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public void hello() {
+		System.out.println("Hello " + this.firstname);
+	}
+
+	public class Programmer extends Employee {
+		public Programmer(String firstnameInput, String lastnameInput, int salaryInput) {
+			super(firstnameInput, lastnameInput, salaryInput);
+
+		}
+
+		public void fixPC(String serialNumber) {
+			System.out.println("I'm trying to fix PC serialNumber:" + serialNumber);
+			getSalary();
+		}
+
+		public void createWebsite(String template, String titelName) {
+
+		}
+
+		public void installWindows(String version, String productKey) {
+
+		}
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package com.kimzun.day10;
+
+import com.kimzun.day10_1.Employee;
+
+public class Day10 {
+	public   String firstname;
+    public   String lastname;
+    private  int salary;
+   
+    public void Employee(String firstnameInput, String lastnameInput, int salaryInput) {
+        this.firstname = firstnameInput;
+        this.lastname = lastnameInput;
+        this.salary = salaryInput;
+    }
+    public void setSalary(int newSalary) {
+        
+    }
+    public int getSalary() {
+        return salary;
+    }
+    public void hello() {
+        System.out.println("Hello "+this.firstname);
+    }
+    public CEO(String firstnameInput, String lastnameInput, int salaryInput) {
+        super(firstnameInput, lastnameInput, salaryInput);
+    }
+    @Override
+    public int getSalary() {
+        return super.getSalary() * 2;
+    }
+    
+    public void hello() {
+        System.out.println("Hi, nice to meet you. "+this.firstname+"!");
+    }
+    public void fire (Employee employee) {
+    	System.out.println(employee.firstname + "has been fired!");
+    }
+    
+	public static void main(String[] args) {
+	
+
+	}
+
+}
