@@ -1,0 +1,20 @@
+package com.kimzun.AbstractEnumFinal;
+
+public abstract class Abstract {
+	private String title = "";
+	private String decription = "";
+	
+	public abstract String getTitle();
+	public abstract String getPrice();
+	public abstract String getUrlImage();
+	public abstract String getSoldText();
+	
+	public void printTitle() {
+		System.out.println(this.title);
+	}
+	public void printDecription() {
+		System.out.println(this.title);
+	}
+	
+	
+}

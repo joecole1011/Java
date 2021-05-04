@@ -1,0 +1,5 @@
+package com.kimzun.AbstractEnumFinal;
+
+public abstract class Abstract {
+	public abstract String getTitle(;)
+}

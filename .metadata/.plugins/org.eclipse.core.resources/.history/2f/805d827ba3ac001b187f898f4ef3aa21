@@ -1,0 +1,23 @@
+package com.kimzun.AbstractEnumFinal;
+
+public class Employee extends Abstract {
+
+	@Override
+	public String getfirstname() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getlastname() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getsalary() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

@@ -1,0 +1,7 @@
+package com.kimzun.AbstractEnumFinal;
+
+public abstract class Abstract {
+	public abstract String getTitle();
+	public abstract String getPrice();
+	public abstract String getUrlimage();
+}

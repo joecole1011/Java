@@ -1,0 +1,23 @@
+package com.kimzun.AbstractEnumFinal;
+
+public class Enum {
+	enum Status {
+		GOOD, BAD, STILL
+	}
+
+	public static void main(String[] args) {
+		Status myStatus = Status.STILL;
+		switch (myStatus) {
+		case GOOD:
+			System.out.println("เขียนโปรแกรมดีกว่า!!!");
+			break;
+		case BAD:
+			System.out.println("งงไปหมดแล้ว");
+			System.out.println("Error เต็มเลย");
+			break;
+		case STILL:
+			System.out.println("ไม่ไหวแล้วไปนอนละบายยย");
+			break;
+		}
+	}
+}
