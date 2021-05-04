@@ -2,7 +2,11 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="java.lang.Byte"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="com.kimzun.helloWord.HelloWorld"/>
     <fullyQualifiedTypeName name="com.kimzun.ooplab.Employee"/>
+    <fullyQualifiedTypeName name="com.kimzun.ooplab.Employee13_2"/>
+    <fullyQualifiedTypeName name="com.kimzun.helloWord.HelloWorld"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.kimzun.day10.Programmer"/>
+    <fullyQualifiedTypeName name="com.kimzun.day10.Employee"/>
+    <fullyQualifiedTypeName name="com.kimzun.day10.CEO"/>
 </qualifiedTypeNameHistroy>
